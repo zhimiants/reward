@@ -1,4 +1,4 @@
-name: N2
+name: N22
 on:
   push:
     branches:
