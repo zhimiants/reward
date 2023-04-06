@@ -26,8 +26,8 @@ jobs:
 
       - name: start
         env:
-          MY_COOKIE: ${{ secrets.N1 }}
-          IPS: ${{ secrets.IPS1 }}
+          MY_COOKIE: ${{ secrets.N2 }}
+          IPS: ${{ secrets.IPS2 }}
         run: |
           chmod 773 run
           ./run
